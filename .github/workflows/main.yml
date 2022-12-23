@@ -12,6 +12,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: pablojsv/metrics@main
+      - uses: pablojsv/metrics@master
         with:
           token: ${{ secrets.METRICS_TOKEN }}
